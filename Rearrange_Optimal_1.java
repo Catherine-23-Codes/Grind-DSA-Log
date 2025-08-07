@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Rearrange_Brute1 {
+public class Rearrange_Optimal_1 {
 
     public static int[] rearrangeArray(int[] nums) {
         int n = nums.length;
