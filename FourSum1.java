@@ -1,3 +1,4 @@
+//4sum Brute force using list and 4 loops
 import java.util.*;
 
 public class FourSum1 {
@@ -31,3 +32,6 @@ public class FourSum1 {
     }
   }
 }
+
+//T.C O(N^4)
+//S.C = O(no of quads)*2
