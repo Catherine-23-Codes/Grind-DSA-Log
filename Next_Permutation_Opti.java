@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 
 public class Next_Permutation_Opti {
@@ -30,7 +29,8 @@ public class Next_Permutation_Opti {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3};
+        //int[] arr = {1, 2, 3};
+        int[] arr={2,3,5,4,1,0,0};
         nextPermutation(arr);
         System.out.println("Next Permutation: " + Arrays.toString(arr));
     }
