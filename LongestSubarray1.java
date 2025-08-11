@@ -1,3 +1,4 @@
+// brute force method
 public class LongestSubarray1 {
 
     public static int longestSubarrayWithSumK(int[] arr, int k) {

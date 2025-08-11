@@ -1,4 +1,6 @@
-// Better method- using hashing & prefixsum -- works for negative positive and zeroes also
+// Better method- using hashing & prefixsum --
+// works for negative positive and zeroes also
+
 import java.util.*;
 public class LongestSubarray2 {
     public static int LongestSubarraySum(int[] arr, long k){
