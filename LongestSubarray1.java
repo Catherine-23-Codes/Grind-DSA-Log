@@ -19,7 +19,7 @@ public class LongestSubarray1 {
 
     public static void main(String[] args) {
         int[] arr = {1, 4, 2, 5, 2, 7, -1, 0, 6, 1};
-        int k = 8;
+        int k = 10;
         int length = longestSubarrayWithSumK(arr, k);
         System.out.println("Longest subarray length with sum " + k + " is: " + length);
     }
