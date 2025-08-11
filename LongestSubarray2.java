@@ -1,3 +1,4 @@
+// Better method- using hashing & prefixsum -- works for negative positive and zeroes also
 import java.util.*;
 public class LongestSubarray2 {
     public static int LongestSubarraySum(int[] arr, long k){
@@ -17,8 +18,8 @@ public class LongestSubarray2 {
         return maxLength;
     }
     public static void main(String[] args) {
-        int[] arr={2, -1, 2, 1, -3, 4};
-        long k = 3;
+        int[] arr={2, -1, -2, -1, -3, 4};
+        long k = 1;
         System.out.println("The longest subarray is:" + LongestSubarraySum(arr, k));
     }
 }
