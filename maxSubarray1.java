@@ -16,6 +16,6 @@ public class maxSubarray1{
     }
     public static void main(String[] args) {
         int[]arr={1,-2,-3,4,-1,5,-3};
-        System.err.println("The maximum subarray sum is:"+maxSubarraySum(arr));
+        System.err.println("The maximum subarray sum is:" +maxSubarraySum(arr));
     }
 }
