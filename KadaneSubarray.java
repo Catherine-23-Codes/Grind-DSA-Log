@@ -1,6 +1,5 @@
 import java.util.*;
 public class KadaneSubarray {
-
     public static void maxSubarraySum(int[] arr) {
         int n = arr.length;
         int sum = 0;
@@ -26,7 +25,6 @@ public class KadaneSubarray {
                 sum = 0;  // reset
             }
         }
-
         // Print result
         System.out.println("Maximum Subarray Sum = " + maxi);
         System.out.print("Subarray: [");
