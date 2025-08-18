@@ -25,6 +25,7 @@ public class KadaneSubarray {
                 sum = 0;  // reset
             }
         }
+
         // Print result
         System.out.println("Maximum Subarray Sum = " + maxi);
         System.out.print("Subarray: [");
