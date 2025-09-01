@@ -8,7 +8,7 @@ public class Xor3 {
         for (int num : arr) {
             xor ^= num;
 
-            if (xor == k) count++;
+            if (xor == k)  count++;
 
             if (map.containsKey(xor ^ k)) {
                 count += map.get(xor ^ k);
