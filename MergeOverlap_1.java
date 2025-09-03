@@ -1,3 +1,4 @@
+// Merged overlaping subintervals BRUTE
 import java.util.*;
 public class MergeOverlap_1 {
 
