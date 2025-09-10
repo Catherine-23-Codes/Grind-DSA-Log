@@ -1,4 +1,4 @@
-public class RotateMat_90deg_1 {
+public class RotateMat_90deg_B {
     public static int[][] rotate(int[][] matrix) {
         int n = matrix.length;
         int[][] ans = new int[n][n];
