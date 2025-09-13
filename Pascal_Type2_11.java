@@ -1,3 +1,4 @@
+//Type 2 method 1 simplified version without using formula! 
 public class Pascal_Type2_11 {
     static void printNCR(int n) {
         long ans = 1;

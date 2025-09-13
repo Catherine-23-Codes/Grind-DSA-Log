@@ -1,3 +1,4 @@
+// Type 2 method 2 without using formula! 
 public class Pascal_Type2_1 {
     // Function to calculate nCr
     public static long nCr(int n, int r) {
