@@ -12,3 +12,7 @@ public class o_inbuilt {
         System.out.println(getLength("Apple Man go"));
     }
 }
+/*
+ * TC=O(n)
+ * SC=O(n) extra array is used
+ */
