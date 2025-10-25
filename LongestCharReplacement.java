@@ -27,3 +27,4 @@ public class LongestCharReplacement {
         System.out.println(characterReplacement("PXQXYPIY", 2));    // 4
     }
 }
+
