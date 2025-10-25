@@ -16,7 +16,7 @@ public class LongestCharReplacement {
                 if (changes <= k)
                     maxLen = Math.max(maxLen, len);
                 else
-                    break;  // no need to expand further for this i
+                    break;  // no need to expand further for this i!!
             }
         }
         return maxLen;
