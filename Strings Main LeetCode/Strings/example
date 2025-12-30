@@ -1,0 +1,36 @@
+Case 1: Without new keyword
+String A = "Catherine";
+String B = "Catherine";
+
+
+👉 Here, both A and B will point to the same object in something called the String Pool (a special memory area in Java where strings are stored).
+
+Because "Catherine" is already created once in the pool, Java reuses it for efficiency.
+
+So A == B → true (they point to the same object).
+
+🔹 Case 2: With new keyword
+String S1 = new String("Catherine");
+String S2 = new String("Catherine");
+
+
+👉 Here, even though the content ("Catherine") is the same, Java will create a new object every time you use new.
+
+So S1 and S2 are two different objects in memory.
+
+That’s why S1 == S2 → false.
+
+But S1.equals(S2) → true (because .equals() checks content, not memory location).
+
+
+
+
+
+
+✅ Summary in one line:
+
+"Catherine" → stored in the String Pool, reused, same object.
+
+new String("Catherine") → always creates a new object in heap memory, even if the content is same.
+
+
